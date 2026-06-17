@@ -1,9 +1,10 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Mariana Viana | Platform & DevEx Engineer</title>
+  <meta name="description" content="Profissional de Platform Engineering com foco em DevEx, Cloud e Produto. Transformo a complexidade da nuvem em plataformas produtivas." />
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
@@ -38,12 +39,12 @@
 
   <!-- ===== NAV ===== -->
   <nav class="nav" id="nav">
-    <div class="nav-logo">Mariana<span>.</span>dev</div>
+    <div class="nav-logo">mv<span>.</span>dev</div>
     <ul class="nav-links" id="navLinks">
       <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#skills">Stack</a></li>
-      <li><a href="#projetos">Lab</a></li>
-      <li><a href="#servicos">Experiência</a></li>
+      <li><a href="#skills">Atuação</a></li>
+      <li><a href="#projetos">Projeto</a></li>
+      <li><a href="#servicos">Qualificações</a></li>
       <li><a href="#contato">Contato</a></li>
     </ul>
     <button class="menu-btn" id="menuBtn" aria-label="Menu">&#9776;</button>
@@ -52,13 +53,12 @@
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
     <div class="hero-content">
-      <p class="hero-tag">✦ Olá! eu sou Mariana Viana</p>
-      <h1 class="hero-title">Transformo a complexidade da <span>nuvem</span> em plataformas <em>produtivas</em> para desenvolvedores.</h1>
-      <p class="hero-sub">— Platform & DevEx Engineer</p>
-      <p class="hero-about">Profissional graduada em Gestão de TI e pós-graduada em Cloud Computing. Atuo como Platform Engineer com foco em DevEx e Produto, criando experiências internas que aceleram times de engenharia.</p>
+      <p class="hero-tag">olá, eu sou</p>
+      <h1 class="hero-title">Mariana<br /><span>Viana</span></h1>
+      <p class="hero-sub"><span class="typed" id="typed"></span></p>
       <div class="hero-btns">
-        <a href="#contato" class="btn btn-primary">Vamos conversar →</a>
-        <a href="#projetos" class="btn btn-outline">Ver projetos →</a>
+        <a href="#projetos" class="btn btn-primary">Ver Projeto</a>
+        <a href="#contato" class="btn btn-outline">Contato</a>
       </div>
     </div>
 
@@ -68,17 +68,17 @@
           <span class="dot red"></span>
           <span class="dot yellow"></span>
           <span class="dot green"></span>
-          <span class="code-title">mariana.ts</span>
+          <span class="code-title">platform.js</span>
         </div>
         <pre class="code-body"><code><span class="c-purple">const</span> <span class="c-blue">mariana</span> = {
-  <span class="c-cyan">nome</span>:    <span class="c-green">"Mariana Viana"</span>,
-  <span class="c-cyan">cargo</span>:   <span class="c-green">"Platform & DevEx Engineer"</span>,
-  <span class="c-cyan">foco</span>:    <span class="c-green">"Cloud & Developer Experience"</span>,
-  <span class="c-cyan">stack</span>:   [
+  <span class="c-cyan">nome</span>:   <span class="c-green">"Mariana Viana"</span>,
+  <span class="c-cyan">cargo</span>:  <span class="c-green">"Platform &amp; DevEx Eng."</span>,
+  <span class="c-cyan">area</span>:   <span class="c-green">"Cloud Computing"</span>,
+  <span class="c-cyan">stack</span>:  [
     <span class="c-green">"Azure"</span>, <span class="c-green">"DevOps"</span>,
-    <span class="c-green">"Next.js"</span>, <span class="c-green">"Figma"</span>
+    <span class="c-green">"IaC"</span>,   <span class="c-green">"Next.js"</span>
   ],
-  <span class="c-cyan">status</span>:  <span class="c-ok">"disponível ✓"</span>
+  <span class="c-cyan">status</span>: <span class="c-ok">"disponível ✓"</span>
 }</code></pre>
       </div>
     </div>
@@ -106,17 +106,17 @@
             criando experiências internas que aceleram times de engenharia.
           </p>
           <p>
-            Transformo a complexidade da <strong>nuvem</strong> em plataformas
-            produtivas para desenvolvedores — combinando <strong>Azure</strong>,
-            <strong>DevOps</strong> e cultura de produto para entregar mais
-            velocidade e autonomia aos times.
+            Busco construir soluções que tornem a tecnologia mais
+            <strong>acessível, produtiva e escalável</strong>. Sempre aberta a
+            discutir arquiteturas em nuvem, estratégias de TI e novas
+            oportunidades.
           </p>
           <div class="sobre-tags">
             <span>Platform Engineer</span>
-            <span>DevEx</span>
+            <span>Developer Experience</span>
             <span>Cloud Computing</span>
-            <span>Azure</span>
             <span>Gestão de TI</span>
+            <span>Azure</span>
           </div>
         </div>
 
@@ -127,64 +127,64 @@
           </div>
           <div class="stat fade-in">
             <span class="stat-num" data-target="7">0</span>
-            <span class="stat-label">Tecnologias</span>
+            <span class="stat-label">Stacks</span>
           </div>
           <div class="stat fade-in">
             <span class="stat-num" data-target="3">0</span>
-            <span class="stat-label">Anos de experiência</span>
+            <span class="stat-label">Certificações</span>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== SKILLS ===== -->
+  <!-- ===== ATUAÇÃO (SKILLS) ===== -->
   <section class="section section-alt" id="skills">
     <div class="container">
-      <h2 class="section-title">Minha <span>Stack</span></h2>
+      <h2 class="section-title">Minha <span>Atuação</span></h2>
       <div class="skills-grid">
 
-        <div class="skill-card fade-in" data-skill="azure">
-          <div class="skill-logo">☁</div>
-          <h3>Azure</h3>
-          <p>Infraestrutura em nuvem para times de engenharia.</p>
-          <div class="skill-uses">
-            <span>IaC</span>
-            <span>Observabilidade</span>
-            <span>Cloud Enablement</span>
-          </div>
-        </div>
-
-        <div class="skill-card fade-in" data-skill="devops">
-          <div class="skill-logo">⚙</div>
-          <h3>DevOps</h3>
-          <p>Cultura e práticas para acelerar entregas.</p>
-          <div class="skill-uses">
-            <span>CI/CD</span>
-            <span>Automação</span>
-            <span>GitHub Actions</span>
-          </div>
-        </div>
-
-        <div class="skill-card fade-in" data-skill="nextjs">
-          <div class="skill-logo">N</div>
-          <h3>Next.js</h3>
-          <p>Portais internos e ferramentas para desenvolvedores.</p>
+        <div class="skill-card fade-in" data-skill="html">
+          <div class="skill-logo">DX</div>
+          <h3>Developer Experience</h3>
+          <p>Criação e manutenção de portais internos, documentação técnica e ferramentas que reduzem fricção no dia a dia dos times de engenharia.</p>
           <div class="skill-uses">
             <span>Portais internos</span>
             <span>Documentação</span>
-            <span>DX tools</span>
+            <span>DevRel</span>
           </div>
         </div>
 
-        <div class="skill-card fade-in" data-skill="figma">
-          <div class="skill-logo">✦</div>
-          <h3>Figma & Low-Code</h3>
-          <p>Design de plataformas e soluções sem código.</p>
+        <div class="skill-card fade-in" data-skill="css">
+          <div class="skill-logo">&#9881;</div>
+          <h3>Plataforma &amp; Governança</h3>
+          <p>Design de plataformas internas com foco em padronização, segurança e self-service para acelerar a entrega de produtos digitais.</p>
           <div class="skill-uses">
-            <span>Figma</span>
-            <span>Strapi</span>
-            <span>Low-Code</span>
+            <span>Self-service</span>
+            <span>Segurança</span>
+            <span>Padronização</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in" data-skill="js">
+          <div class="skill-logo">&#9729;</div>
+          <h3>Cloud Enablement</h3>
+          <p>Habilito times a adotarem a nuvem com práticas de Azure, IaC, observabilidade e cultura DevOps em ambientes regulados.</p>
+          <div class="skill-uses">
+            <span>Azure</span>
+            <span>IaC</span>
+            <span>Observabilidade</span>
+          </div>
+        </div>
+
+        <div class="skill-card fade-in" data-skill="py">
+          <div class="skill-logo">TI</div>
+          <h3>Empreendedorismo em TI</h3>
+          <p>Co-criação de iniciativas e produtos digitais que conectam tecnologia, pessoas e impacto de negócio.</p>
+          <div class="skill-uses">
+            <span>Produto</span>
+            <span>Estratégia</span>
+            <span>Impacto</span>
           </div>
         </div>
 
@@ -192,129 +192,70 @@
     </div>
   </section>
 
-  <!-- ===== LAB / PROJETOS ===== -->
+  <!-- ===== PROJETO ===== -->
   <section class="section" id="projetos">
     <div class="container">
-      <p class="section-label">Project</p>
-      <h2 class="section-title-lab">Guia Prático para <span>Iniciantes em TI</span></h2>
+      <h2 class="section-title">O meu <span>projeto</span></h2>
+      <div class="projects-grid">
 
-      <div class="lab-card fade-in">
-        <div class="lab-info">
-          <p>Projeto criado para pessoas que estão começando na área de tecnologia, transformando experiências reais em um conteúdo direto e estratégico. Da escolha da primeira stack até o entendimento do mercado.</p>
-          <div class="lab-tags">
+        <div class="project-card fade-in project-agency" data-url="https://www.linkedin.com/in/marianavianaferreira/">
+          <div class="project-header">
+            <span class="project-lang agency">Conteúdo &amp; Carreira</span>
+            <div class="project-links">
+              <a href="https://www.linkedin.com/in/marianavianaferreira/" target="_blank" rel="noopener" title="Ver no LinkedIn">↗</a>
+            </div>
+          </div>
+          <h3>Guia Prático para Iniciantes em TI</h3>
+          <p>Projeto criado para quem está começando na área de tecnologia, transformando experiências reais em conteúdo direto e estratégico — da escolha da primeira stack ao entendimento do mercado. Descubra os erros que 90% dos iniciantes cometem.</p>
+          <div class="skill-uses" style="margin-top:1rem;">
             <span>Next.js</span>
             <span>React</span>
             <span>TypeScript</span>
             <span>Tailwind CSS</span>
             <span>Vercel</span>
           </div>
-          <div class="lab-links">
-            <a href="https://basetech.dev" target="_blank" rel="noopener" class="btn btn-outline btn-sm">📖 Ler guia</a>
-            <a href="https://github.com" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">⟨/⟩ Repo</a>
-            <a href="https://basetech.dev" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">Visitar ↗</a>
-          </div>
-        </div>
-        <div class="lab-preview">
-          <div class="lab-browser">
-            <div class="lab-browser-bar">
-              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-              <span class="lab-url">basetech.dev</span>
-            </div>
-            <div class="lab-browser-content">
-              <span class="lab-badge">&lt;/&gt; Base Tech</span>
-              <p class="lab-quote">O mercado de TI não precisa de mais curiosos.</p>
-              <p class="lab-quote-alt">Ele precisa de profissionais direcionados.</p>
-              <p class="lab-desc-sm">Descubra os erros que 90% dos iniciantes cometem e aprenda a estratégia certa para se destacar no mercado de tecnologia.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== QUALIFICAÇÕES ===== -->
-  <section class="section section-alt" id="qualificacoes">
-    <div class="container">
-      <p class="section-label">Certificações</p>
-      <h2 class="section-title-lab">Qualificações</h2>
-
-      <div class="cert-grid">
-
-        <div class="cert-card fade-in">
-          <div class="cert-top">
-            <div class="cert-icon">🎓</div>
-            <span class="cert-badge">CERTIFICADO</span>
-          </div>
-          <h3>Prototipação Avançada</h3>
-          <p class="cert-org">Level UP! Experience — Design, Produto e Engenharia</p>
-          <p class="cert-by">Facilitado por <strong>Equipe Figma</strong> · Centro de Excelência em Experiência do Usuário</p>
-          <div class="cert-meta">
-            <span>📅 12 de maio de 2026</span>
-            <span>🕐 Carga horária: 1 hora</span>
-          </div>
-        </div>
-
-        <div class="cert-card fade-in">
-          <div class="cert-top">
-            <div class="cert-icon">🎓</div>
-            <span class="cert-badge">CERTIFICADO</span>
-          </div>
-          <h3>Workshop Imersivo sobre DevEx e DevRel</h3>
-          <p class="cert-org">1ª Academia ConectaDev</p>
-          <p class="cert-by">Facilitado por <strong>Banco do Brasil</strong> · Academia ConectaDev — Banco do Brasil</p>
-          <div class="cert-meta">
-            <span>📅 05 a 08 de agosto de 2025</span>
-            <span>🕐 Carga horária: 6 horas</span>
-          </div>
-        </div>
-
-        <div class="cert-card fade-in">
-          <div class="cert-top">
-            <div class="cert-icon">🎓</div>
-            <span class="cert-badge">CERTIFICADO</span>
-          </div>
-          <h3>Microsoft Certified: Conceitos básicos do Azure</h3>
-          <p class="cert-org">Azure Fundamentals (AZ-900)</p>
-          <p class="cert-by">Facilitado por <strong>Microsoft</strong> · Microsoft</p>
-          <div class="cert-meta">
-            <span>📅 25 de setembro de 2025</span>
-            <span>🕐 Certificação oficial</span>
-          </div>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- ===== WORK EXPERIENCE ===== -->
+  <!-- ===== QUALIFICAÇÕES (SERVIÇOS) ===== -->
   <section class="section" id="servicos">
     <div class="container">
-      <h2 class="section-title">Work <span>Experience</span></h2>
+      <h2 class="section-title">Minhas <span>qualificações</span></h2>
+      <p class="servicos-sub">Formação contínua em cloud, plataforma e experiência do desenvolvedor.</p>
 
-      <div class="experience-grid">
+      <div class="projects-grid">
 
-        <div class="exp-card fade-in">
-          <div class="exp-icon">&lt;/&gt;</div>
-          <h3>Developer Experience</h3>
-          <p>Criação e manutenção de portais internos, documentação técnica e ferramentas que reduzem fricção no dia a dia dos times de engenharia.</p>
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-lang html">Equipe Figma</span>
+          </div>
+          <h3>Prototipação Avançada</h3>
+          <p><strong>Centro de Excelência em Experiência do Usuário</strong><br />
+          Level UP! Experience — Design, Produto e Engenharia<br />
+          <span style="opacity:.7;font-size:.85em;">12 de maio de 2026 · 1 hora</span></p>
         </div>
 
-        <div class="exp-card fade-in">
-          <div class="exp-icon">⊞</div>
-          <h3>Plataforma & Governança</h3>
-          <p>Design de plataformas internas com foco em padronização, segurança e self-service para acelerar a entrega de produtos digitais.</p>
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-lang fest">Banco do Brasil</span>
+          </div>
+          <h3>Workshop sobre DevEx e DevRel</h3>
+          <p><strong>Academia ConectaDev — Banco do Brasil</strong><br />
+          1ª Academia ConectaDev<br />
+          <span style="opacity:.7;font-size:.85em;">05 a 08 de agosto de 2025 · 6 horas</span></p>
         </div>
 
-        <div class="exp-card fade-in">
-          <div class="exp-icon">☁</div>
-          <h3>Cloud Enablement em escala</h3>
-          <p>Habilito times a adotarem a nuvem com práticas de Azure, IaC, observabilidade e cultura DevOps em ambientes regulados.</p>
-        </div>
-
-        <div class="exp-card fade-in">
-          <div class="exp-icon">✦</div>
-          <h3>Empreendedorismo em TI</h3>
-          <p>Co-criação de iniciativas e produtos digitais que conectam tecnologia, pessoas e impacto de negócio.</p>
+        <div class="project-card fade-in">
+          <div class="project-header">
+            <span class="project-lang solar">Microsoft</span>
+          </div>
+          <h3>Microsoft Certified: Azure Fundamentals</h3>
+          <p><strong>Microsoft — Conceitos básicos do Azure</strong><br />
+          Azure Fundamentals (AZ-900)<br />
+          <span style="opacity:.7;font-size:.85em;">25 de setembro de 2025 · Certificação oficial</span></p>
         </div>
 
       </div>
@@ -322,29 +263,32 @@
   </section>
 
   <!-- ===== CONTATO ===== -->
-  <section class="section" id="contato">
+  <section class="section section-alt" id="contato">
     <div class="container contato-container">
-      <p class="contato-frase">Busco construir soluções que tornem a tecnologia mais acessível, produtiva e escalável. Se quiser trocar ideias sobre cloud, carreira ou projetos, <a href="mailto:marianaviana121@gmail.com" class="contato-link-inline">vamos conversar</a>.</p>
-
-      <div class="contato-linkedin-wrap">
-        <a href="https://linkedin.com" target="_blank" rel="noopener" class="contato-linkedin-btn" title="LinkedIn">
-          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      <h2 class="section-title">Bora <span>conversar?</span></h2>
+      <p class="contato-sub">Sempre aberta a discutir cloud, carreira e novas oportunidades.</p>
+      <div class="contato-links">
+        <a href="https://wa.me/5561992271063" target="_blank" rel="noopener" class="contato-card fade-in">
+          <span class="contato-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.37 5.07L2 22l5.1-1.34A9.93 9.93 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm4.49 13.17c-.24-.12-1.43-.7-1.65-.78-.22-.08-.38-.12-.54.12s-.62.78-.76.94c-.14.16-.28.18-.52.06-.24-.12-1.02-.37-1.93-1.18-.71-.63-1.19-1.41-1.33-1.65-.14-.24-.01-.37.1-.49.11-.11.24-.28.36-.42.12-.14.16-.24.24-.4.08-.16.04-.3-.02-.42-.06-.12-.54-1.3-.74-1.78-.19-.46-.4-.4-.54-.4h-.46c-.16 0-.42.06-.64.3s-.84.82-.84 2 .86 2.32.98 2.48c.12.16 1.69 2.57 4.09 3.6.57.25 1.02.39 1.36.5.57.18 1.09.15 1.5.09.46-.07 1.43-.58 1.63-1.15.2-.57.2-1.05.14-1.15-.06-.1-.22-.16-.46-.28z"/></svg>
+          </span>
+          <span class="contato-name">WhatsApp</span>
+          <span class="contato-user">+55 61 99227-1063</span>
         </a>
-      </div>
-
-      <div class="contato-cards">
-        <div class="contato-info-card fade-in">
-          <span class="contato-info-label">CONTACT</span>
-          <p>Sempre aberta a discutir arquiteturas em nuvem, estratégias de TI e novas oportunidades.</p>
-        </div>
-        <div class="contato-info-card fade-in">
-          <a href="mailto:marianaviana121@gmail.com" class="contato-info-row">
-            <span>✉</span> marianaviana121@gmail.com
-          </a>
-          <a href="tel:+5561992271063" class="contato-info-row">
-            <span>📞</span> (61) 9 992271063
-          </a>
-        </div>
+        <a href="https://www.linkedin.com/in/marianavianaferreira/" target="_blank" rel="noopener" class="contato-card fade-in">
+          <span class="contato-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          </span>
+          <span class="contato-name">LinkedIn</span>
+          <span class="contato-user">in/marianavianaferreira</span>
+        </a>
+        <a href="mailto:marianaviana121@gmail.com" target="_blank" rel="noopener" class="contato-card fade-in">
+          <span class="contato-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>
+          </span>
+          <span class="contato-name">E-mail</span>
+          <span class="contato-user">marianaviana121@gmail.com</span>
+        </a>
       </div>
     </div>
   </section>
@@ -354,70 +298,31 @@
     <div class="footer-inner">
 
       <div class="footer-brand">
-        <span class="footer-logo">Mariana<span>.</span>dev</span>
-        <p>Platform & DevEx Engineer<br />Transformando nuvem em plataformas produtivas.</p>
+        <span class="footer-logo">mv<span>.</span>dev</span>
+        <p>Transformo a complexidade da nuvem<br />em plataformas produtivas.</p>
       </div>
 
       <div class="footer-nav">
         <span class="footer-nav-title">Navegação</span>
         <a href="#sobre">Sobre</a>
-        <a href="#skills">Skills</a>
-        <a href="#projetos">Projetos</a>
-        <a href="#servicos">Serviços</a>
+        <a href="#skills">Atuação</a>
+        <a href="#projetos">Projeto</a>
+        <a href="#servicos">Qualificações</a>
         <a href="#contato">Contato</a>
       </div>
 
       <div class="footer-social">
         <span class="footer-nav-title">Redes</span>
-        <a href="https://wa.me/55619991893159" target="_blank" rel="noopener">WhatsApp</a>
-        <a href="https://instagram.com/rruanribeiroo" target="_blank" rel="noopener">Instagram</a>
-        <a href="https://github.com/rruandev" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://wa.me/5561992271063" target="_blank" rel="noopener">WhatsApp</a>
+        <a href="https://www.linkedin.com/in/marianavianaferreira/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:marianaviana121@gmail.com" target="_blank" rel="noopener">E-mail</a>
       </div>
 
     </div>
     <div class="footer-bottom">
-      <p>© 2026 <span class="footer-name">Mariana Viana</span> · Feito com foco em DevEx.</p>
+      <p>© 2026 <span class="footer-name">Mariana Viana</span> · Platform &amp; DevEx Engineer.</p>
     </div>
   </footer>
-
-  <!-- FIX: Animação dos contadores -->
-  <script>
-    (function() {
-      function animateCounter(el) {
-        var target = parseInt(el.getAttribute('data-target'), 10);
-        var start = 0;
-        var duration = 1200;
-        var step = Math.ceil(target / (duration / 16));
-        var timer = setInterval(function() {
-          start += step;
-          if (start >= target) {
-            el.textContent = target;
-            clearInterval(timer);
-          } else {
-            el.textContent = start;
-          }
-        }, 16);
-      }
-
-      var counters = document.querySelectorAll('.stat-num');
-      var animated = false;
-
-      function tryAnimate() {
-        if (animated) return;
-        counters.forEach(function(el) {
-          var rect = el.getBoundingClientRect();
-          if (rect.top < window.innerHeight) {
-            animated = true;
-            counters.forEach(animateCounter);
-          }
-        });
-      }
-
-      window.addEventListener('scroll', tryAnimate);
-      window.addEventListener('load', tryAnimate);
-      setTimeout(tryAnimate, 500);
-    })();
-  </script>
 
   <script src="script.js"></script>
 
@@ -452,7 +357,3 @@
   </script>
 </body>
 </html>
-
-
-
-
