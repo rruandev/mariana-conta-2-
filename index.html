@@ -37,6 +37,14 @@
 </head>
 <body>
 
+  <!-- ===== EFEITOS DE FUNDO ===== -->
+  <div class="aurora" aria-hidden="true">
+    <span class="aurora-blob a1"></span>
+    <span class="aurora-blob a2"></span>
+    <span class="aurora-blob a3"></span>
+  </div>
+  <div class="cursor-glow" id="cursorGlow" aria-hidden="true"></div>
+
   <!-- ===== NAV ===== -->
   <nav class="nav" id="nav">
     <div class="nav-logo">mv<span>.</span>dev</div>
@@ -52,6 +60,7 @@
 
   <!-- ===== HERO ===== -->
   <section class="hero" id="home">
+    <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
     <div class="hero-content">
       <p class="hero-tag">olá, eu sou</p>
       <h1 class="hero-title">Mariana<br /><span>Viana</span></h1>
@@ -328,6 +337,30 @@
     </div>
   </section>
 
+  <!-- ===== IMPACTO / NÚMEROS ===== -->
+  <section class="section impacto" id="impacto">
+    <div class="container">
+      <div class="impacto-grid">
+        <div class="metric fade-in">
+          <span class="metric-num" data-target="7" data-suffix="+">0</span>
+          <span class="metric-label">Projetos entregues</span>
+        </div>
+        <div class="metric fade-in">
+          <span class="metric-num" data-target="7">0</span>
+          <span class="metric-label">Stacks dominadas</span>
+        </div>
+        <div class="metric fade-in">
+          <span class="metric-num" data-target="3">0</span>
+          <span class="metric-label">Certificações</span>
+        </div>
+        <div class="metric fade-in">
+          <span class="metric-num" data-target="4">0</span>
+          <span class="metric-label">Áreas de atuação</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ===== CONTATO ===== -->
   <section class="section section-alt" id="contato">
     <div class="container contato-container">
@@ -399,6 +432,7 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="effects.js"></script>
 
   <!-- JS PROTEÇÃO -->
   <div id="_protectToast">© Conteúdo protegido — todos os direitos reservados</div>
